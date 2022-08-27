@@ -4,22 +4,22 @@ Repo for working with the course [Mathematical Modelling of Football](https://up
 ## Installation
 
 ### Simple, for usage
-To pip install the latest version of py-tools for usage in another project
+To pip install the latest version of mmof, e.g., for usage in another project
 ```
 pip install XXX 
 ```
 
 ### For development
-To pip install py-tools for development, first clone to the py-tools repo to your computer. 
+To pip install mmof for development, first clone to the mmof repo to your computer. 
 ```
-git clone 
+git clone https://github.com/perski/MMoF.git
 ```
-Then, in the py-tools folder, pip install py-tools in editable mode, including the developer dependencies.
+Then, in the MMoF folder, pip install mmof in editable mode, including the developer dependencies.
 ```
 pip install --editable .['dev']
 ```
-For development work, to avoid problems with conflicting dependency requirements, we recommend installing py-tools in a clean virtual environment, see further information below on how to create a virtual environment.
-If developing in the VS Code IDE, the .vscode/__recommended_settings.json file can be used as a base for configuring the dataframe-explorer project in VS Code. To apply it in your VS Code project, copy the content into a file named .vscode/settings.json.
+For development work, to avoid problems with conflicting dependency requirements, we recommend installing mmof in a clean virtual environment, see further information below on how to create a virtual environment.
+If developing in the VS Code IDE, the .vscode/__recommended_settings.json file can be used as a base for configuring the project in VS Code. To apply it in your VS Code project, copy the content into a file named .vscode/settings.json.
 
 ##### Virtual Environment
 
@@ -42,7 +42,7 @@ to confirm that only pip and setuptools are installed. Update these packages to 
 pip install --upgrade pip
 pip install --upgrade setuptools
 ```
-Now install the py-tools package in editable mode and including the developer dependendcies, as described above.
+Now install the mmof package in editable mode and including the developer dependendcies, as described above.
 ```
 pip install --editable .['dev']
 ```
