@@ -8,8 +8,12 @@ setup(
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     install_requires=[
+        "mplsoccer>=1.1.3",
         "numpy>=1.23.0",
         "pandas>=1.4.3",
+        "requests>=2.28.1",  # required by mplsoccer
+        # "statsbomb>=0.3.0",
+        # "wyscoutapi>=0.0.2",
     ],
     extras_require={
         "dev": [
