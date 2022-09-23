@@ -24,6 +24,8 @@ setup(
             "mypy>=0.971",
             "pytest>=7.1.2",
             "pytest-cov>=3.0.0",
+            "scikit-learn>=1.1.2",
+            # "statsmodel>=0.13.2",  # not on Python 3.10?
         ]
     },
 )
